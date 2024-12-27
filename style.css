@@ -138,48 +138,79 @@ span {
   justify-content: center;
   align-items: flex-end;
 }
-.hero-message{
-    background-color: white;
-    color: black;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.85rem;
-    width: 80%;
-    margin-bottom: 25px;
+.hero-message {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 25px;
 }
-.hero-message a{
-    color: #007185;
+.hero-message a {
+  color: #007185;
 }
-
 
 /* Shop Section */
 
-.shop-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #e2e7e6;
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
 }
-.box{
-    height: 400px;
-    width: 23%;
-    background-color: white;
-    padding: 20px 0 15px;
-    margin-top: 15px;
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0 15px;
+  margin-top: 15px;
 }
-.box-img{
-    height: 300px;
-    background-size: cover;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+.box-img {
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.box-content {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+.box-content p {
+  color: #007185;
+}
 
+/* Footer */
+footer {
+  margin-top: 15px;
 }
-.box-content{
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+.foot-panel1 {
+  height: 50px;
+  background-color: #37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
 }
-.box-content p{
-    color: #007185;
+.foot-panel2 {
+  background-color: #232f3e;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
 }
